@@ -8,11 +8,7 @@ body {
     background-color: #520000;
 }
 
-.main-box {
 
-}
-.main__a{
-}
 .main-button {
     margin-top: 100px;
     border: none;
@@ -27,7 +23,8 @@ body {
     font-weight: 1000;
 }
 
-.main-button:hover {
+.main-button:hover,
+.main-button:focus {
     background: #520000;
         box-shadow: 10px 10px 20px #350000,
             -10px -10px 20px #6f0000;
