@@ -5,13 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keep Looking</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <style>
+        h1 {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+    </style>
 </head>
 <body>
     <div class="main-box">
         <h1>Hello</h1>
-        <button type="button" class="main-button"><a href="./htmlFiles/first.html">Next</a></button>
+        <a class="main__a" href="./htmlFiles/first.html"><button type="button" class="main-button">Next</button></a>
     </div>
+
+    <script>
+        window.onload = function () {
+            var element = document.querySelector("h1");
+            element.style.opacity = 1;
+        }
+    </script>
     
 </body>
 </html>
