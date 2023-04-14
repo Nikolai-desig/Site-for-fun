@@ -59,7 +59,9 @@ body {
 
 /* Page first */
  .p_first {
+    padding: 20px;
     color: var(--text-color);
+ 
  }
 
  /* page secons */
