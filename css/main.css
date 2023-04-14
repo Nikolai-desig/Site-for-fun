@@ -58,23 +58,6 @@ body {
 }
 
 /* Page first */
-
-.button__page-first {
-    margin-top: 100px;
-    border: none;
-        padding: 20px 40px;
-        border-radius: 25px;
-        background: var(--primare-bg-color);
-        box-shadow: 20px 20px 38px #350000,
-            -20px -20px 38px #6f0000;
-        cursor: pointer;
-    
-        color: var(--text-color);
-        font-weight: 700;
-}
-
-.button__page-first:hover {
-    background: var(--primare-bg-color);
-        box-shadow: 10px 10px 20px #350000,
-            -10px -10px 20px #6f0000;
-}
+ .p_first {
+    color: var(--text-color);
+ }
