@@ -37,7 +37,7 @@ body {
 }
 
 .main-button {
-    margin-top: 100px;
+    margin-top: 50px;
     border: none;
     padding: 20px 40px;
     border-radius: 25px;
@@ -60,4 +60,13 @@ body {
 /* Page first */
  .p_first {
     color: var(--text-color);
+ }
+
+ /* page secons */
+
+ .img img {
+    margin-top: 30px;
+    border-radius: 25px;
+    box-shadow: 20px 20px 38px #350000,
+            -20px -20px 38px #6f0000;
  }
