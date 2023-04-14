@@ -3,6 +3,7 @@
     text-align: center;
     text-decoration: none;
     font-family: 'Pacifico', cursive;
+    line-height: 1.5;
 }
 
 :root {
@@ -63,6 +64,37 @@ body {
     color: var(--text-color);
  
  }
+        .swiper {
+            margin-top: 30px;
+            width: 80%;
+            height: 100%;
+        }
+    
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            color: var(--text-color);
+            background: var(--primare-bg-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+                .swiper-scrollbar {
+                    /* position: absolute; */
+                    bottom: 10px;
+                    left: 0;
+                    width: 100%;
+                    height: 5px;
+                    background: #ccc;
+                    border-radius: 5px;
+                }
+        
+                .swiper-scrollbar-drag {
+                    background: #000;
+                    border-radius: 5px;
+                }
+
 
  /* page secons */
 
@@ -71,4 +103,24 @@ body {
     border-radius: 25px;
     box-shadow: 20px 20px 38px #350000,
             -20px -20px 38px #6f0000;
+
+    opacity: 0;
+    transform: translateY(50px) scale(0.5);
+    animation: slide-in 0.5s ease-in forwards;
+ }
+
+ .p_second {
+    color: var(--text-color);
+ }
+
+ @keyframes slide-in {
+     from {
+         opacity: 0;
+         transform: translateY(50px) scale(0.5);
+     }
+
+     to {
+         opacity: 1;
+         transform: translateY(0px) scale(1);
+     }
  }
